@@ -1,0 +1,61 @@
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "colorScheme": "light",
+  "buttonStyle": {
+    "--border-btn": "2px",
+    "--rounded-btn": "0",
+    "--btn-focus-scale": "1.05",
+    "--animation-btn": "0.25s"
+  },
+  "otherStyles": {
+    "--rounded-box": "0rem",
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.2rem"
+  },
+  "mode": "dark",
+  "mainColors": {
+    "base-100": "#0a0a0a",
+    "primary": "#fddd01",
+    "tertiary": "#fddd01",
+    "secondary": "#f2f2f2",
+    "success": "#14ad2e",
+    "warning": "#da1010",
+    "error": "#de6b0d",
+    "info": "#fddd01"
+  },
+  "complementaryColors": {
+    "base-200": ""
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "600"
+          },
+          {
+            "weight": "900"
+          }
+        ],
+        "family": "Roboto"
+      },
+      {
+        "variations": [
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "600"
+          }
+        ],
+        "family": "Inter"
+      }
+    ]
+  }
+}
