@@ -20,7 +20,7 @@ function Logos({
     {
       alt: "deco",
       image:
-        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/fe7cd8ba-c954-45d6-9282-ee7d8ca8e3c7",
+        "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/skunkla/88ba438b-ea7f-4abc-a51c-b8aed827c82f/logo-wide.png",
     },
     {
       alt: "deco",

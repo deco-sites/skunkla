@@ -49,20 +49,20 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (<>
       </div>
     </Modal>
 
-    <div class="flex flex-col gap-4 pt-5 container border-b border-gray-300">
+    <div class="flex flex-col gap-12 pt-5 container border-b border-gray-300">
       <div class="grid grid-cols-3 place-items-center">
-        <div class="place-self-start">
+          <label for={SEARCHBAR_POPUP_ID} class="input input-bordered flex col-2 items-center gap-2 w-full" aria-label="search icon button">
+            <Icon id="search"/>
+            <span class="text-base-400 truncate">
+              Search products, brands...
+            </span>
+            </label>
+
+        <div class="place-self-center col-8">
           <a href="/" aria-label="Store logo">
-            <Image src={logo.src} alt={logo.alt} width={logo.width || 100} height={logo.height || 23}/>
+            <Image src={logo.src} alt={logo.alt} width={logo.width || 100} height={logo.height || 23} />
           </a>
         </div>
-
-        <label for={SEARCHBAR_POPUP_ID} class="input input-bordered flex items-center gap-2 w-full" aria-label="search icon button">
-          <Icon id="search"/>
-          <span class="text-base-400 truncate">
-            Search products, brands...
-          </span>
-        </label>
 
         <div class="flex gap-4 place-self-end">
           <Bag />

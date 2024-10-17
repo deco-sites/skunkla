@@ -4272,6 +4272,9 @@ details.collapse summary::-webkit-details-marker {
 .place-self-end {
   place-self: end;
 }
+.place-self-center {
+  place-self: center;
+}
 .self-center {
   align-self: center;
 }
