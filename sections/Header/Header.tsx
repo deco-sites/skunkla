@@ -3,6 +3,7 @@ import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import Alert from "../../components/header/Alert.tsx";
 import Bag from "../../components/header/Bag.tsx";
+import SignIn from "../../components/header/SignIn.tsx";
 import Menu from "../../components/header/Menu.tsx";
 import NavItem from "../../components/header/NavItem.tsx";
 import Searchbar, { type SearchbarProps, } from "../../components/search/Searchbar/Form.tsx";
@@ -65,7 +66,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (<>
         </div>
 
         <div class="place-self-center-end self-center">
-          <User />
+          <SignIn />
           <Bag />
         </div>
       </div>
