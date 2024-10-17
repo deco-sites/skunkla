@@ -4183,6 +4183,9 @@ details.collapse summary::-webkit-details-marker {
 .flex-nowrap {
   flex-wrap: nowrap;
 }
+.place-items-start {
+  place-items: start;
+}
 .place-items-center {
   place-items: center;
 }
@@ -4268,9 +4271,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .place-self-start {
   place-self: start;
-}
-.place-self-end {
-  place-self: end;
 }
 .place-self-center {
   place-self: center;

@@ -50,7 +50,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (<>
     </Modal>
 
     <div class="flex flex-col gap-12 pt-5 container border-b border-gray-300">
-      <div class="grid grid-cols-3 place-items-center">
+      <div class="grid grid-cols-3 place-items-start items-center">
           <label for={SEARCHBAR_POPUP_ID} class="input input-bordered flex col-2 items-center gap-2" aria-label="search icon button">
             <Icon id="search"/>
             <span class="text-base-400 truncate">
@@ -58,13 +58,14 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (<>
             </span>
             </label>
 
-        <div class="place-self-center w-full">
+        <div class="place-self-center w-full self-center">
           <a href="/" aria-label="Store logo">
             <Image src={logo.src} alt={logo.alt} width={logo.width || 100} height={logo.height || 23} />
           </a>
         </div>
 
-        <div class="flex gap-4 place-self-end align-self-center">
+        <div class="place-self-center-end self-center">
+          <User />
           <Bag />
         </div>
       </div>
